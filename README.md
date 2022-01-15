@@ -4,7 +4,7 @@ Send mqtt message to a server that can read the data sent from nrf9160 software 
 
 ## Description
 
-Is an application that must be built up based on the MQTT sample for the nrf9160 sdk card, and the event manager can be run in several threads
+Is an application that must be built up based on the MQTT sample for the nrf9160 Software Developing Kit, and the event manager can be run in several threads
 
 ## Getting Started
 
