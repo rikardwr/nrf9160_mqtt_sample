@@ -4,19 +4,33 @@ Simple overview of use/purpose.
 
 ## Description
 
-An in-depth paragraph about your project and overview of use.
+
 
 ## Getting Started
 
 ### Dependencies
 
-* Describe any prerequisites, libraries, OS version, etc., needed before installing program.
-* ex. Windows 10
-
+* Nrf 9160 software developing kit
+* Windows 10
 ### Installing
 
-* How/where to download your program
-* Any modifications needed to be made to files/folders
+
+* Step 1 
+    Follow this guide:
+    https://developer.nordicsemi.com/nRF_Connect_SDK/doc/latest/nrf/gs_installing.html
+* Step 2
+    I used VS code extension that Nordic Semi has in VScode, so it's easier to build the application to the Nrf9160 sdk Link to the guide:
+
+    https://developer.nordicsemi.com/nRF_Connect_SDK/doc/latest/nrf/gs_programming.html#building-with-the-vs-code-extension
+* Step 3
+    build application with VS extension based on nordicsemi's MQTT sample, then add event manager to the code
+* Step 4 
+    must fill out these bullets in prf.conf
+    *CONFIG_MQTT_BROKER_HOSTNAME=""
+    *CONFIG_MQTT_USERNAME=""
+    *CONFIG_MQTT_PASSWORD=""
+
+
 
 ### Executing program
 
