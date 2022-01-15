@@ -1,6 +1,6 @@
 # NRF 9160-sdk MQTT SAMPLE & EVENT MANAGER
 
-Send mqtt message to a server that can read the data sent from nrf9160 software developing kit. 
+Send data to a MQTT broker from the NRF9160 software developing kit
 
 ## Description
 
