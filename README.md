@@ -1,4 +1,4 @@
-# Project Title
+# NRF 9160-sdk MQTT SAMPLE & EVENT MANAGER
 
 Simple overview of use/purpose.
 
