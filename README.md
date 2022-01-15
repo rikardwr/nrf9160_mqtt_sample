@@ -26,7 +26,7 @@ Simple overview of use/purpose.
     build application with VS extension based on nordicsemi's MQTT sample, then add event manager to the code
 * Step 4 
     must fill out these bullets in prf.conf
-    *CONFIG_MQTT_BROKER_HOSTNAME="" \n
+    *CONFIG_MQTT_BROKER_HOSTNAME=""
     *CONFIG_MQTT_USERNAME=""
     *CONFIG_MQTT_PASSWORD=""
 
